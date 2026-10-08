@@ -1,0 +1,48 @@
+# Dependencias
+/vendor/
+/node_modules/
+
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Laravel
+/storage/*.key
+/storage/pail
+/public/hot
+/public/storage
+/bootstrap/cache/*.php
+src/vendor/
+src/node_modules/
+src/.env
+src/.env.*
+!src/.env.example
+src/storage/*.key
+src/public/hot
+src/public/storage
+
+# Docker (datos locales)
+docker-compose.override.yml
+/docker/mysql-data/
+
+# Pruebas y caché
+.phpunit.result.cache
+.phpunit.cache/
+.phpactor.json
+.php-cs-fixer.cache
+.vite/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editores y sistema
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de Office
+~$*
